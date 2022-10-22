@@ -2,11 +2,12 @@ var numbers = [3, 56, 2, 48, 5];
 
 //Map -Create a new array by doing something with each item in an array.
 
+var newNumbers = [];
 function double(x) {
-  return x * 2;
+  newNumbers.push(x * 2);
 }
-const doubleNumbers = numbers.map(double);
-console.log(doubleNumbers);
+numbers.forEach(double);
+console.log(newNumbers);
 
 //Filter - Create a new array by keeping the items that return true.
 
