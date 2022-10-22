@@ -1,4 +1,4 @@
-const newNumbers = numbers.map(function (x) {
+const newNumbers = numbers.map((x) => {
   return x * x;
 });
 
