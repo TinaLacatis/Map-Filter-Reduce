@@ -1,5 +1,3 @@
-const newNumbers = numbers.map((x) => {
-  return x * x;
-});
+const newNumbers = numbers.map((x) => x * x);
 
 console.log(newNumbers);
