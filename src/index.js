@@ -4,16 +4,14 @@ var numbers = [3, 56, 2, 48, 5];
 
 //Filter - Create a new array by keeping the items that return true.
 
-var newNumbers = [];
-numbers.forEach(function (num) {
-  if (num < 10) {
-    newNumbers.push(num);
-  }
+//Reduce - Accumulate a value by doing something to each item in an array.
+
+var newNumber = 0;
+numbers.forEach(function (currentNumber) {
+  newNumber += currentNumber;
 });
 
-console.log(newNumbers);
-
-//Reduce - Accumulate a value by doing something to each item in an array.
+console.log(newNumber);
 
 //Find - find the first item that matches from an array.
 
