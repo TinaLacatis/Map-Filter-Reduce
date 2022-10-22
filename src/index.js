@@ -1,7 +1,6 @@
-import emojipedia from "./emojipedia";
+function square(x) {
+  return x * x;
+}
+const newNumbers = numbers.map(square);
 
-const newEmojipedia = emojipedia.map(function (emojiEntry) {
-  return emojiEntry.meaning.substring(0, 100);
-});
-
-console.log(newEmojipedia);
+console.log(newNumbers);
